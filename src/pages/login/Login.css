@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: -100vh;
+}
+
+.header {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 50px;
+  border: 2px solid #5aaaf0; 
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #9f2727;
+  border-radius: 6px;
+}
+
+.forgot-password {
+  padding-left: center;
+  margin-top: -25px;
+  color: grey;
+  font-size: 15px;
+}
+
+.forgot-password span{
+  color: green;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background: #5aaaf0; 
+  color: #fff;
+  margin: 0 10px;
+}
+
+
+/*
+.gray{
+  background: #EAEAEA;
+  color: grey;
+}
+*/
